@@ -90,7 +90,7 @@ src/main/java/fr/pantheonsorbonne/ufr27/miashs/poo/
 ├── ItemAnalyzer.java        # Calculs statistiques
 ├── ContentProxy.java        # Gestionnaire de source (Cache/Remote)
 └── WebPageFetcher.java      # Utilitaire de connexion HTTP
-
+```
 ---
 # 4- Prérequis
 
