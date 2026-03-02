@@ -3,8 +3,9 @@ Scrapper & Analyzer
 (Projet d'Étude - Programmation Orientée Objet)
 
 Ce projet est un outil de Web Scraping en Java permettant de récupérer, traiter et analyser des données produits à partir d'une plateforme de vente en ligne. Il permet d'extraire des informations telles que les marques, les tailles et les prix pour en tirer des statistiques d'analyse.
+
 ---
-1- Installation & Lancement
+# 1- Installation & Lancement
 
 Le projet est conçu pour être utilisé avec Maven et peut être exécuté via un container ou directement en local.
 
@@ -25,27 +26,27 @@ Afficher les attributs de chaque produit.
 Générer une analyse statistique complète.
 
 ---
-2- Composants du Projet
+# 2- Composants du Projet
 
 *ItemsScrapper.java
 
 C'est le moteur d'extraction du projet.
 
-    Fonctionnalité : Parcourt le code source HTML brut.
+Fonctionnalité : Parcourt le code source HTML brut.
 
-    Extraction : Récupère dynamiquement le nom, la marque, la taille, le prix de base et le prix de vente.
+Extraction : Récupère dynamiquement le nom, la marque, la taille, le prix de base et le prix de vente.
 
-    Nettoyage : Gère les formats de prix (conversion virgule/point) et l'anonymisation des marques inconnues.
+Nettoyage : Gère les formats de prix (conversion virgule/point) et l'anonymisation des marques inconnues.
 
 *ItemAnalyzer.java
 
 Module d'analyse de données post-scraping.
 
-    Prix : Calcule le prix le plus bas et la moyenne des prix de vente.
+Prix : Calcule le prix le plus bas et la moyenne des prix de vente.
 
-    Statistiques : Identifie la marque la plus fréquente dans la liste.
+Statistiques : Identifie la marque la plus fréquente dans la liste.
 
-    Écarts : Calcule l'écart maximum entre prix de base et prix réduit, ainsi que la moyenne des remises effectuées.
+ Écarts : Calcule l'écart maximum entre prix de base et prix réduit, ainsi que la moyenne des remises effectuées.
 
 *ContentProxy & WebPageFetcher
 
@@ -77,9 +78,9 @@ Lors de l'exécution, le programme affiche automatiquement :
 
         Moyenne des remises constatées.
 ---
-3- Structure du Projet
+# 3- Structure du Projet
 
-
+```
 src/main/java/fr/pantheonsorbonne/ufr27/miashs/poo/
 ├── Main.java                # Point d'entrée de l'application
 ├── Item.java                # Modèle de données
@@ -88,8 +89,10 @@ src/main/java/fr/pantheonsorbonne/ufr27/miashs/poo/
 ├── ContentProxy.java        # Gestionnaire de source (Cache/Remote)
 └── WebPageFetcher.java      # Utilitaire de connexion HTTP
 
+```
+
 ---
-4- Prérequis
+# 4- Prérequis
 
 Java 17+
 
