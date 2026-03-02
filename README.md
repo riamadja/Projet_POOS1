@@ -80,7 +80,9 @@ Lors de l'exécution, le programme affiche automatiquement :
 ---
 # 3- Structure du Projet
 
-```
+## 🏗️ Structure du Projet
+
+```text
 src/main/java/fr/pantheonsorbonne/ufr27/miashs/poo/
 ├── Main.java                # Point d'entrée de l'application
 ├── Item.java                # Modèle de données
@@ -88,8 +90,6 @@ src/main/java/fr/pantheonsorbonne/ufr27/miashs/poo/
 ├── ItemAnalyzer.java        # Calculs statistiques
 ├── ContentProxy.java        # Gestionnaire de source (Cache/Remote)
 └── WebPageFetcher.java      # Utilitaire de connexion HTTP
-
-```
 
 ---
 # 4- Prérequis
