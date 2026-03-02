@@ -1,4 +1,4 @@
-Scrapper & Analyzer
+### Scrapper & Analyzer
 
 (Projet d'Étude - Programmation Orientée Objet)
 
@@ -80,7 +80,7 @@ Lors de l'exécution, le programme affiche automatiquement :
 ---
 # 3- Structure du Projet
 
-## 🏗️ Structure du Projet
+
 
 ```text
 src/main/java/fr/pantheonsorbonne/ufr27/miashs/poo/
