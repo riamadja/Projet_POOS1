@@ -13,18 +13,20 @@ Le projet est conçu pour être utilisé avec Maven et peut être exécuté via 
 
     mvn clean install
 
-    Exécution :
-    Lancez la classe Main.java. Le programme va :
+Exécution :
+Lancez la classe Main.java. Le programme va :
 
-        Charger les données (via le cache local par défaut).
+Charger les données (via le cache local par défaut).
 
-        Parser le contenu HTML pour créer des objets Item.
+Parser le contenu HTML pour créer des objets Item.
 
-        Afficher les attributs de chaque produit.
+Afficher les attributs de chaque produit.
 
-        Générer une analyse statistique complète.
+Générer une analyse statistique complète.
+
 ---
 2- Composants du Projet
+
 *ItemsScrapper.java
 
 C'est le moteur d'extraction du projet.
@@ -85,13 +87,12 @@ src/main/java/fr/pantheonsorbonne/ufr27/miashs/poo/
 ├── ItemAnalyzer.java        # Calculs statistiques
 ├── ContentProxy.java        # Gestionnaire de source (Cache/Remote)
 └── WebPageFetcher.java      # Utilitaire de connexion HTTP
+
 ---
 4- Prérequis
 
-    Java 17+
+Java 17+
 
-    Maven
-
-    Une connexion internet (uniquement pour le mode getFresh)
+Maven
 
 Note : Ce projet a été réalisé dans un cadre pédagogique pour illustrer les concepts de POO, de manipulation de chaînes de caractères et de gestion de flux de données.
